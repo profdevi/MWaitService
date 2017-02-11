@@ -11,6 +11,7 @@ be done.
 
 <tt>
    usage:  MWaitService [-?] [-w=<waittime>] <options>
+
            v1.0 copyright Comine.com
 
    Program will wait for a service to reach a specified state of running,
