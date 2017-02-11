@@ -9,7 +9,7 @@ be done.
 
 ## Command Information
 
-'''
+```
    usage:  MWaitService [-?] [-w=<waittime>] <options>
 
    Program will wait for a service to reach a specified state of running,
@@ -20,7 +20,7 @@ be done.
      -r <service name>   : Wait till service reaches run state
      -p <service name>   : Wait till service reaches pause state
      -l                  : Show all services info
-'''
+```
 
 ## Example Usage 1:
 
@@ -34,7 +34,7 @@ C:>  MWaitService  -s MySQL -w=10
 ## Example Usage 2:
 
 Show list of all the services on the windows machine and show the state of the
-service.  Both short and long names of the service is displayed>
+service.  Both short and long names of the service is displayed.
 
 C:>  MWaitService -l
 
