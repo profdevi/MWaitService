@@ -9,10 +9,8 @@ be done.
 
 ## Command Information
 
-<tt>
+'''
    usage:  MWaitService [-?] [-w=<waittime>] <options>
-
-           v1.0 copyright Comine.com
 
    Program will wait for a service to reach a specified state of running,
    stoped, or paused
@@ -22,7 +20,7 @@ be done.
      -r <service name>   : Wait till service reaches run state
      -p <service name>   : Wait till service reaches pause state
      -l                  : Show all services info
-</tt>
+'''
 
 ## Example Usage 1:
 
