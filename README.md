@@ -7,10 +7,26 @@ were certain services have to be stopped, before a full backup of files can
 be done.
 
 
+## Command Information
+
+<tt>
+   usage:  MWaitService [-?] [-w=<waittime>] <options>
+           v1.0 copyright Comine.com
+
+   Program will wait for a service to reach a specified state of running,
+   stoped, or paused
+
+     -w=<waittime>       : Wait for a number of seconds
+     -s <service name>   : Wait till service reaches stop state
+     -r <service name>   : Wait till service reaches run state
+     -p <service name>   : Wait till service reaches pause state
+     -l                  : Show all services info
+</tt>
+
 ## Example Usage 1:
 
 The following example command line will wait till the MySQL server is stopped.  
-If the MySQL service does not stop within 10s, the MWaitService returns with 
+If the MySQL service does not stop within 10s, the MWaitService returns with
 an not zero value, which can be used in batch files.
 
 C:>  MWaitService  -s MySQL -w=10
