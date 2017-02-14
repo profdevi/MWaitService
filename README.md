@@ -44,9 +44,9 @@ C:>  MWaitService -l
 The following links is for the direct download of the 32 bit executable with
 an MD5 digest of the executable.
 
-MWaitService.exe : [a relative link](bin/MWaitService.exe)
+Windows 32-bit Binary : [MWaitService.exe](bin/MWaitService.exe)
 
-MWaitService.exe.md5 : [a relative link](bin/MWaitService.exe.md5)
+MD5 Digest for binary : [MWaitService.exe.md5](bin/MWaitService.exe.md5)
 
 
 
