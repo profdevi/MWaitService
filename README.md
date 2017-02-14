@@ -39,7 +39,14 @@ service.  Both short and long names of the service is displayed.
 C:>  MWaitService -l
 
 
+## Download Links 
 
+The following links is for the direct download of the 32 bit executable with
+an MD5 digest of the executable.
+
+MWaitService.exe : [a relative link](bin/MWaitService.exe)
+
+MWaitService.exe.md5 : [a relative link](bin/MWaitService.exe.md5)
 
 
 
